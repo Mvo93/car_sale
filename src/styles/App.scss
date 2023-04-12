@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patua+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patua+One&family=Righteous&family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+#root{
+    position: relative;
+}
+
+.header{
+    background-color: var(--azure_a100);;
+    width: 100%;
+    padding: 20px;
+    .modalbtn{
+    margin-left: 5px;
+    background-color: #198754;
+    border: #000000;
+    }
+    .modalbtn:hover{
+        background-color: #11613c;
+    }
+.modalnames{
+    margin-bottom: 10px;
+}
+}
+.header_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.town{
+    margin-right: 1vw;
+    padding: auto;
+    .h4text{
+        margin-left: 5px;
+    }
+}
+.but_x{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    transition-duration: 1s
+    ;
+}
+.but_x:hover{
+transform: scale(110%);
+border-radius: 50%;
+background-color: #720404;
+color: white;
+}
+
+
+
+.full{
+    background-color: rgb(238, 238, 238);
+}
+
+.hr_card{
+    background-color: #050505;
+ margin-bottom: 15px;
+}
+.card2{
+    width:20vw;
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+  span{
+    position: absolute;
+  bottom: 2px;
+  left: 20px;
+  }
+  .icon_style{
+    color: #ffa218;
+    margin:0 auto;
+    padding: 0 auto;
+   
+}
+.maxShow{
+    position: absolute;
+    z-index: 20;
+   opacity: 1;
+    padding: 20px;
+    background-color: #1c7c04f1;
+    width: 500px;
+top: 200px; left: 850px;
+border: 3px solid silver;
+border-radius: 5px;
+.closet{
+    text-align: right;
+}
+
+}
+.closeTag{
+    color: red;
+    font-size: 30px;
+    text-align: right;
+    margin-right: 20px;
+}
+.cabinet_button{
+    text-align: center;
+    font-family: 'Sanchez', serif;
+    font-size: 17px;
+    padding: 10px;
+    color: rgb(21, 98, 165);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid silver;
+    border-radius: 20px;
+    margin-left: 10px;
+    
+}
+.information{
+    padding: -0px 25px;
+}
+.cabinet_button:hover{
+transition-duration: 1000ms;
+background-color: rgb(12, 245, 12);
+}
+.cabinet_page{
+    height: 80vh;
+    width: 100vw;
+padding: auto;
+    background-color: blueviolet;
+font-size: 40px;
+font-family: 'Sanchez', serif; ;
+margin-bottom: -20px;
+}
+body{
+    padding: auto;
+    margin: auto;
+  
+}
+html,
+body {
+  height: 100%;
+}
+
+.login{
+   text-align: center;
+ margin-bottom: -50px;
+}
+.login_content{
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #505050;
+}
+.input_logpass{
+    margin-left: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input{
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.input:hover{
+    box-shadow: 0 0 10px  #ffa218;
+}
+.input_surname{
+    margin-left: 750px;
+    width: 21vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input_name{
+    height: 30px;
+    width: 170px;
+    font-size: 20px;
+}
+.input,.input_name{
+    margin-top: 10px;
+}
+.Button_reg{
+    width: 21vw;
+    margin-top: 10px;
+    background-color: yellow;
+padding: 5px;
+border: 2px solid black;
+font-size: 20px;
+}
+.first{
+    background-color: black;
+}
+.card2::-webkit-scrollbar {
+    width: 2px;
+    background-color: #020202;
+}
+.card2::-webkit-scrollbar-thumb {
+    background-color: #f8f7f7;
+    
+ 
+   
+}
+
+.footer{
+    width: 100%;
+   margin-top: 100px;
+    text-align: center;
+    background-color: #505050   ;
+    color: #f1f1f1;
+    transition-duration: 1000ms;
+    padding: 5px;
+    position: sticky;
+   
+}
+.footer:hover{
+    color: #030303;
+    background-color: #ffffff 
+}
+.btn2 {
+    margin-left: 5px;
+    margin-top: 1vh;
+}
+.pervo_div2{
+    z-index: 15;
+    opacity: 50%;
+ }
+li{
+    list-style: none;
+}
+.list_opisnie{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+}
+.input_div{
+    background-color: #11613c;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .input_div{
+        width: 50%;
+        height: 30px;
+    }
+    .nam_sur{
+   width: 700px;
+   text-align: center;
+   margin-left: 600px;
+    }
+    .btnlogin{
+        padding: 5px;
+        width: 200px;
+        margin-bottom: 300px;
+        margin-left: 850px;
+    }
+}
+
+.four {
+    background: #ffffff;
+    padding: 20px 5px;
+    text-align: center;
+  } 
+  .four h1 {
+    font-family: 'Merriweather', serif;
+    position: relative;
+    color: #17920c;
+    font-size: 60px;
+    font-weight: normal;
+    padding: 8px 20px 7px 20px;
+    border-top: 4px solid;
+    border-left: 4px solid;
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+  }
+  .four h1:before {
+    content: ""; 
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: -28px;
+    left: -28px;
+    border: 5px solid #17920c;
+    box-sizing: border-box;
+  }
+  @media (max-width: 450px) {
+    .four h1 {font-size: 36px;}
+    .four h1:before {
+      width: 20px;
+      height: 20px;
+      top: -20px;
+      left: -20px;
+    }
+  }
+

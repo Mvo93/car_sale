@@ -1,0 +1,40 @@
+.pytem{
+    padding: 10px 50px;
+    position: relative;
+}
+.slide_img{
+    padding: 2px;
+    border-radius: 10px; 
+    .slide_img{    
+  height:30vh;
+  width:200px;  
+    } 
+}
+.changer{
+    position: absolute;
+    top:140px;
+   padding: 10px;
+    scale: 1.4;
+    color: #eb0404;
+    background-color: #d4d4d4;
+    border-radius: 40px;
+    
+}  
+.groupmain{
+
+    max-width:100%;
+    padding: 0px 25px;
+    .grouplist{
+        text-align: center;
+    }
+}
+.text_opisanie{
+    margin-left: 5%;
+     margin-top: 20px;
+     word-wrap: break-word;
+     width: 90%;
+     background-color: #f1f1f1;
+     padding: 5px;
+     border-radius: 25px;
+ 
+ }

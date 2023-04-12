@@ -1,0 +1,63 @@
+
+.flexiblecard{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    .cardtext{
+        padding:5px 15px;
+    }
+  
+}
+.carddescriptionDIV{
+    padding: 10px;
+}
+.carddescription{
+    font-size:1.8vh;
+    font-family: 'Arimo', sans-serif;;
+}
+.card{
+   width: 600px;
+   padding: 3px;
+}
+.card:hover{
+    border: 1px solid rgb(17, 17, 17);
+    box-shadow: 0 24px 56px rgba(0,0,0,0.25), 0 20px 20px rgba(0,0,0,0.22);
+}
+
+.cardimg{
+    margin-left: auto;
+    margin-right: auto;
+    min-width:200px;
+    min-height: 170px;
+   
+}
+
+
+@media( max-width:700px){
+        .flexiblecard{
+            flex-direction: column;
+        }
+     
+        
+        h5.cardititle{
+        font-size: 4vw;
+        }
+        p.cardititle{
+            font-size: 4vw;
+        }
+       
+        .carddescription{
+            font-size:2vw;
+        }
+        
+        .cardimg{
+            margin-left: auto;
+            margin-right: auto;
+            min-width:100px;
+            min-height: 100px;
+           
+    }
+
+       
+
+}
